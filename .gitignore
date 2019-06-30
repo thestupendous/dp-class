@@ -1,0 +1,13 @@
+*.exe
+*.out
+*.o
+del.cpp
+del.c
+del.py
+del
+run
+*.class
+/all\ codes/*
+/home\ assignment/*
+/process/*
+/.vscode/*
