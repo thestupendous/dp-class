@@ -1,3 +1,7 @@
+/*
+ * finds the longest common subsequence between two strings
+ * using dynamic programming
+ */
 	#include<iostream>
 	using namespace std;
 	int dp[104][104];
