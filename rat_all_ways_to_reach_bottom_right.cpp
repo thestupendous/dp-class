@@ -4,6 +4,8 @@
 	through which we can reach the bottom right corner
 	from the top left corner,
 	provided that there will be some obstacles.
+	Obstacles will be marked by '#' characters,
+	'0' means allowed to pass.
 	Thus, the motion will be possible in all four directions.
 	The results can be many. All the results will
 	be printed in the fashion 
