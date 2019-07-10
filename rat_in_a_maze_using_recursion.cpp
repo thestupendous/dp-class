@@ -6,8 +6,9 @@ bool notOutside(int i,int j,int n,int m)
 }
 int zz=0;
 int findWays(int n,int m,int cur_row,int cur_col,char **a,bool **visited)
-{cout<<"entered - "<<cur_row<<' '<<cur_col<<"\n";
-		zz++;
+{
+	cout<<"entered - "<<cur_row<<' '<<cur_col<<"\n";
+	zz++;
 	if(!notOutside(cur_row,cur_col,n,m)) return 0;
 	if(cur_row>n or cur_col>m or a[cur_row][cur_col]=='1' or visited[cur_row][cur_col])
 	{
